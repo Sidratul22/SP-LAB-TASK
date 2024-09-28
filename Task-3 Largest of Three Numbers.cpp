@@ -15,7 +15,7 @@ int main()
                {max=b;}
                else{max=c;}
           }
-          else {printf("Invalid");}
+          else {max=c;}
 
           printf("The largest number is %d\n",max);
           return 0;
